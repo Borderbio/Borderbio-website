@@ -20,6 +20,7 @@ header img {
     height: auto;
 }
 
+
 nav {
     display: flex;
     gap: 30px;
@@ -219,4 +220,57 @@ p {
     .field-section img {
         height: 300px;
     }
+}
+/* Work with Borderbio call-to-action */
+
+.work-section {
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+    box-sizing: border-box;
+
+    background: #173f2a;
+    color: white;
+
+    padding: 75px max(40px, calc((100vw - 1120px) / 2));
+    margin-top: 90px;
+}
+
+.work-section h2 {
+    color: white;
+    font-size: 38px;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.work-section h3 {
+    color: #d8edb5;
+    font-size: 26px;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.work-section p {
+    color: white;
+    max-width: 760px;
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 32px;
+}
+
+.work-button {
+    display: inline-block;
+    padding: 14px 24px;
+
+    background: white;
+    color: #173f2a;
+
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+
+    border-radius: 6px;
+}
+
+.work-button:hover {
+    background: #d8edb5;
 }
