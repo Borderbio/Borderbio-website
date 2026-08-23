@@ -109,3 +109,49 @@ p {
     margin-right: auto;
     text-align: center;
 }
+
+/* Farm image section */
+
+.farm-image {
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    margin: 60px 0;
+    border-radius: 12px;
+}
+.hero {
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+    box-sizing: border-box;
+
+    min-height: 520px;
+    padding: 90px max(40px, calc((100vw - 1120px) / 2));
+
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.38), rgba(0, 0, 0, 0.38)),
+        url("hedgerow.jpeg.jpeg");
+
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero h1 {
+    color: white;
+    max-width: 760px;
+    margin-top: 0;
+}
+
+.hero h2 {
+    color: #d8edb5;
+    max-width: 760px;
+}
+
+.hero p {
+    color: white;
+    max-width: 720px;
+}
