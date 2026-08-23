@@ -80,28 +80,43 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 18px;
+    gap: 22px;
     margin-bottom: 30px;
 }
 
 .bubble {
-    width: 150px;
-    height: 150px;
-    border: 2px solid #2f5d45;
+    width: 175px;
+    height: 175px;
     border-radius: 50%;
+
+    background: linear-gradient(
+        145deg,
+        #f7fbf4,
+        #e2efd9
+    );
+
+    border: 3px solid #2f5d45;
+
     display: flex;
     align-items: center;
     justify-content: center;
+
     text-align: center;
     font-size: 19px;
-    font-weight: bold;
-    padding: 10px;
+    font-weight: 700;
+    color: #173f2a;
+
+    padding: 18px;
     box-sizing: border-box;
+
+    box-shadow: 0 8px 22px rgba(25, 65, 45, 0.14);
 }
 
 .arrow {
-    font-size: 30px;
+    font-size: 38px;
+    font-weight: 300;
     color: #2f5d45;
+    margin: 0 4px;
 }
 
 .chain-section p {
