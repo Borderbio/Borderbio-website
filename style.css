@@ -476,3 +476,19 @@ p {
         white-space: nowrap;
     }
 }
+
+@media (max-width: 700px) {
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        width: 100%;
+    }
+
+    nav a {
+        display: block;
+        width: 100%;
+        white-space: normal;
+    }
+}
