@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work With Us | Borderbio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <a href="index.html">
+        <img src="triskelion logo png.png" alt="Borderbio logo" width="220">
+    </a>
+
+    <nav>
+        <a href="science.html">Science</a>
+        <a href="research.html">Research</a>
+        <a href="about.html">About</a>
+        <a href="work-with-us.html">Work With Us</a>
+    </nav>
+</header>
+
+<main>
+
+    <section class="science-intro">
+        <h1>Have you got something interesting?</h1>
+
+        <h2>Let's test it.</h2>
+
+        <p>
+            Borderbio works with farmers, businesses, universities and research
+            organisations to investigate agricultural products, research questions
+            and new ideas.
+        </p>
+    </section>
+<section class="science-section">
+    <h2>Testing agricultural products and amendments</h2>
+
+    <p>
+        We can investigate a wide range of agricultural amendments, including
+        plant extracts, biological products, fertilisers and soil conditioners.
+    </p>
+
+    <p>
+        Depending on the question, this can include measuring effects on soil
+        biology, nutrient availability and crop response, with controlled
+        experiments used to determine whether a treatment produces a meaningful effect.
+    </p>
+</section>
+<section class="science-section">
+    <h2>Collaborative research</h2>
+
+    <p>
+        Borderbio is open to collaborative research with universities,
+        research organisations, agricultural businesses and farmers where
+        our interests and capabilities overlap.
+    </p>
+
+    <p>
+        We are particularly interested in projects that connect laboratory
+        investigation with practical agricultural questions and provide
+        opportunities to test promising ideas under controlled and field conditions.
+    </p>
+</section>
+<section class="science-section">
+    <h2>Grant-funded R&amp;D</h2>
+
+    <p>
+        Borderbio is interested in developing collaborative research and
+        development projects through agricultural innovation and other
+        grant-funding programmes.
+    </p>
+
+    <p>
+        We welcome opportunities to join or develop projects where our
+        scientific capabilities, agricultural setting and experimental
+        approach can contribute to answering a useful research question.
+    </p>
+</section>
+<section class="work-section">
+    <h2>Tell us what you're trying to find out.</h2>
+    <h3>We'd be interested to hear from you.</h3>
+
+    <p>
+        Whether you have a product to test, a research idea, a potential
+        collaboration or simply think there might be some common ground,
+        get in touch.
+    </p>
+
+    <a class="work-button" href="mailto:john.goodwin1@btconnect.com">EMAIL BORDERBIO →</a>
+</section>
+</main>
+
+</body>
+</html>
