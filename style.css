@@ -274,3 +274,42 @@ p {
 .work-button:hover {
     background: #d8edb5;
 }
+/* Science page */
+
+.science-section {
+    background: #f7fbf4;
+    border-left: 5px solid #2f5d45;
+    border-radius: 10px;
+    padding: 36px 40px;
+    margin: 30px 40px;
+    box-shadow: 0 8px 22px rgba(25, 65, 45, 0.08);
+}
+
+.science-section h2 {
+    color: #173f2a;
+    margin-top: 0;
+}
+
+.science-section p {
+    max-width: 850px;
+}
+/* Science page introduction */
+
+.science-intro {
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+
+.science-intro h1 {
+    color: #173f2a;
+    max-width: 800px;
+}
+
+.science-intro h2 {
+    color: #52745f;
+    max-width: 800px;
+}
+
+.science-intro p {
+    max-width: 760px;
+}
