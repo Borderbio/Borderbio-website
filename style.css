@@ -313,3 +313,34 @@ p {
 .science-intro p {
     max-width: 760px;
 }
+/* Science section headings and icons */
+
+.science-heading {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    margin-bottom: 18px;
+}
+
+.science-heading h2 {
+    margin: 0;
+}
+
+.science-icon {
+    width: 52px;
+    height: 52px;
+    min-width: 52px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 2px solid #2f5d45;
+    border-radius: 50%;
+
+    color: #2f5d45;
+    font-size: 25px;
+    font-weight: bold;
+
+    background: white;
+}
