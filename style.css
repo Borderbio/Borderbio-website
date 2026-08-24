@@ -499,12 +499,23 @@ p {
     overflow: auto;
 }
 
+.about-profile {
+    display: grid;
+    grid-template-columns: 1fr 320px;
+    gap: 40px;
+    align-items: start;
+}
+
+.about-profile h2,
+.about-profile p {
+    grid-column: 1;
+}
+
 .about-photo {
-    width: 320px;
-    max-width: 40%;
+    grid-column: 2;
+    grid-row: 1 / 4;
+    width: 100%;
     height: auto;
-    float: right;
-    margin: 0 0 20px 35px;
     border-radius: 8px;
 }
 @media (max-width: 700px) {
