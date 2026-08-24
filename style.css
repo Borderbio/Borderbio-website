@@ -462,3 +462,17 @@ p {
         object-fit: cover;
     }
 }
+
+@media (max-width: 700px) {
+
+    nav {
+        width: 100%;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 30px;
+    }
+
+    nav a {
+        width: auto;
+        white-space: nowrap;
+    }
+}
