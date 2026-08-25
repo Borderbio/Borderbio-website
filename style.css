@@ -528,3 +528,28 @@ p {
         margin: 25px auto 0;
     }
 }
+
+/* Soil biology introduction */
+
+.soil-working {
+    max-width: 900px;
+    margin: 70px auto 50px;
+    padding: 0 30px;
+}
+
+.soil-working h2 {
+    color: #174f36;
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.soil-working h3 {
+    color: #5f806b;
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+.soil-working p {
+    font-size: 18px;
+    line-height: 1.7;
+}
