@@ -572,3 +572,21 @@ p {
         margin: 25px 0 0;
     }
 }
+/* Research field photograph */
+
+.research-photo {
+    display: block;
+    width: 100%;
+    max-width: 900px;
+    height: 360px;
+    object-fit: cover;
+    margin: 30px auto 5px;
+    border-radius: 8px;
+}
+
+@media (max-width: 700px) {
+    .research-photo {
+        height: auto;
+        margin-top: 25px;
+    }
+}
