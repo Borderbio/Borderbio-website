@@ -590,3 +590,22 @@ p {
         margin-top: 25px;
     }
 }
+/* Work With Us field trial photograph */
+
+.work-photo {
+    display: block;
+    width: 100%;
+    max-width: 900px;
+    height: 420px;
+    object-fit: cover;
+    object-position: center;
+    margin: 30px auto 5px;
+    border-radius: 8px;
+}
+
+@media (max-width: 700px) {
+    .work-photo {
+        height: auto;
+        margin-top: 25px;
+    }
+}
