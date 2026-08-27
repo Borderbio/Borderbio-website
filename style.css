@@ -609,3 +609,39 @@ p {
         margin-top: 25px;
     }
 }
+/* Plant chemistry photograph */
+
+.chemistry-profile {
+    display: grid;
+    grid-template-columns: 1fr 320px;
+    gap: 40px;
+    align-items: start;
+}
+
+.chemistry-profile .science-heading,
+.chemistry-profile p {
+    grid-column: 1;
+}
+
+.chemistry-photo {
+    grid-column: 2;
+    grid-row: 1 / 4;
+    width: 100%;
+    height: 380px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+@media (max-width: 700px) {
+
+    .chemistry-profile {
+        display: block;
+    }
+
+    .chemistry-photo {
+        display: block;
+        width: 100%;
+        height: auto;
+        margin-top: 25px;
+    }
+}
