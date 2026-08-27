@@ -553,3 +553,22 @@ p {
     font-size: 18px;
     line-height: 1.7;
 }
+@media (max-width: 700px) {
+
+    .about-profile {
+        display: block;
+    }
+
+    .about-profile h2,
+    .about-profile p,
+    .about-photo {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .about-photo {
+        display: block;
+        height: auto;
+        margin: 25px 0 0;
+    }
+}
